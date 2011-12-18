@@ -1,0 +1,8 @@
+source "http://rubygems.org"
+source "http://gems.kontera.com"
+
+gem "sinatra"
+gem "amqp","0.7.0"
+gem "a15-worker"
+gem "mysql2"
+gem "json"
