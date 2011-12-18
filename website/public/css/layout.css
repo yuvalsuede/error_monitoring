@@ -1,0 +1,93 @@
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+    /* Page reset */
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    /* Setting default text color, background and a font stack */
+    color:#444444;
+    font-size:13px;
+    background: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+    font-size:36px;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+h2{
+    font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+    font-size:12px;
+    font-weight:normal;
+    position:absolute;
+    right:0;
+    text-transform:uppercase;
+    top:15px;
+}
+
+#gallery{
+    /* CSS3 Box Shadow */
+    -moz-box-shadow:0 0 3px #AAAAAA;
+    -webkit-box-shadow:0 0 3px #AAAAAA;
+    box-shadow:0 0 3px #AAAAAA;
+
+    /* CSS3 Rounded Corners */
+
+    -moz-border-radius-bottomleft:4px;
+    -webkit-border-bottom-left-radius:4px;
+    border-bottom-left-radius:4px;
+
+    -moz-border-radius-bottomright:4px;
+    -webkit-border-bottom-right-radius:4px;
+    border-bottom-right-radius:4px;
+
+    border:1px solid white;
+
+    background:url(img/panel.jpg) repeat-x bottom center #ffffff;
+
+    /* The width of the gallery */
+    width:920px;
+    overflow:hidden;
+}
+
+#main{
+    /* The main container */
+    margin:15px auto;
+    text-align:center;
+    width:920px;
+    position:relative;
+}
+
+#container{
+   width: 900px ;
+   margin-left: auto ;
+   margin-right: auto ;
+}
+#menu {
+    /*margin-top: 10px;*/
+    /*height: 55px;*/
+    /*-moz-box-shadow:0 0 3px #AAAAAA;*/
+    /*-webkit-box-shadow:0 0 3px #AAAAAA;*/
+    /*box-shadow:0 0 3px #AAAAAA;*/
+    /*background: #f2f2f2;*/
+}
+
+#graphs{
+
+}
+
+#menu{
+
+	/* This is the container for the thumbnails */
+	height:45px;
+    -moz-box-shadow:0 0 3px #AAAAAA;
+    -webkit-box-shadow:0 0 3px #AAAAAA;
+    box-shadow:0 0 3px #AAAAAA;
+    background: #f2f2f2;
+    margin-top: 10px;
+}

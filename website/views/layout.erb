@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title><%= @title %></title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+	<script src="highcharts/js/highcharts.js" type="text/javascript"></script>
+    <script>
+      var categories = <%= @categories %>;
+      var data = <%= @data %>;
+      var days = <%= @days %>;
+      var totalErrors = <%= @totalErrors %>;
+    </script>
+	<!--<script type="text/javascript" src="highcharts/js/themes/gray.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <script src="scripts/charts.js" type="text/javascript"></script>
+  </head>
+  <body>
+  <div id="main">
+      <h1>Monitoring Dashboard<br /><b> <%= yield %></b></h1>
+
+
+      <div id="gallery">
+            <div id="graphs">
+                <div id="container"></div>
+            </div>
+            <div id="menu">
+
+            </div>
+      </div>
+  </div>
+
+  </body>
+
+</html>
