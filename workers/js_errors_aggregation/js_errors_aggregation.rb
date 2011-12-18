@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'a15-worker'
 require 'json'
 require 'mysql2'
