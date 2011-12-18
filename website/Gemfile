@@ -1,0 +1,8 @@
+source "http://rubygems.org"
+source "http://gems.kontera.com"
+
+gem "sinatra"
+gem "sinatra-reloader"
+gem "mysql2"
+
+
