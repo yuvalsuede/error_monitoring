@@ -71,7 +71,7 @@ get '/js_errors' do
   @totalErrors = []
   @title = 'Javascript Errors'
   @categories  =  get_categories
-  dataSeries = [3,4,10]
+  dataSeries = [0,1,7]
 
   dataSeries.each_with_index do |day, index|
     @data[index] = get_daily_data(day)
