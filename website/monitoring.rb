@@ -20,7 +20,7 @@ def get_day_str (num_days_before)
 end
 
 def get_daily_data (num_days_before)
-  client = Mysql2::Client.new(:host => "int16", :username => "sa", :password =>"sakontera", :database => "mercury_reporting")
+  client = Mysql2::Client.new(:host => "localhost", :username => "root", :password =>"", :database => "monitoring_data")
 
   day_start = get_day_str (num_days_before)
   day_end = get_day_str (num_days_before-1)

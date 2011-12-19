@@ -75,12 +75,12 @@ class SimpleWorker
 end
 
 SimpleWorker.new({
-  :host        => '127.0.0.1',
+  :host        => 'rabbitmq02',
   :queue_name  => 'errors_for_aggregation',
   :worker_name => 'js_errors',
-  :sqluser 		 => 'sa',
-  :sqlpass		 => 'sakontera',
-  :sqlhost     => 'int16',
-  :sqldb       => 'mercury_reporting',
+  :sqluser 		 => 'root',
+  :sqlpass		 => '',
+  :sqlhost     => 'localhost',
+  :sqldb       => 'monitoring_data',
   :sqltable    => 'js_errors'
 }).run
